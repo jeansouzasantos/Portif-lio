@@ -43,6 +43,13 @@ body{
     color: var(--cor-hover-um);
 }
 
+.apresentacao__conteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .titulo{
     text-align: center;
     color: var(--cor-terciaria);
@@ -50,6 +57,30 @@ body{
     font-size: 30px;
     padding-top: 4%;
     padding-bottom: 3%;
+}
+
+.descricao{
+    font-size: 30px;
+    color: var(--cor-terciaria);
+    text-align: center;
+}
+
+.links_portifolio a:hover{
+    color: var(--cor-hover-dois);
+}
+
+.links_portifolio li{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.links_portifolio ul li a{
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .rodape{
@@ -60,4 +91,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
+    bottom: 0px;
+    margin: 100px 0px 0px 0px;
 }
